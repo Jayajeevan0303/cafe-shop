@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Cafe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="indexstyle.css">
+</head>
+<body>
+
+<!--  HOME SECTION  -->
+<section id="home">
+    <div class="home-container">
+        <!-- NAVBAR -->
+        <header class="header">
+            <nav class="navbar navbar-expand-md" id="main-navbar">
+                <div class="container-fluid px-3">
+                    <a class="navbar-brand" id="logo" href="#home">Magic Cafe</a>
+
+                    <div class="collapse navbar-collapse justify-content-center" id="navLinks">
+                        <ul class="navbar-nav gap-3">
+                            <li class="nav-item"><a href="#home" class="nav-link nav-pill">Home</a></li>
+                            <li class="nav-item"><a href="#menu" class="nav-link nav-pill">Menu</a></li>
+                            <li class="nav-item"><a href="#services" class="nav-link nav-pill">Services</a></li>
+                            <li class="nav-item"><a href="#book_table" class="nav-link nav-pill">Book Table</a></li>
+                            <li class="nav-item"><a href="#place_order" class="nav-link nav-pill">Order</a></li>
+                            <li class="nav-item"><a href="#contact" class="nav-link nav-pill">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Mobile Toggler -->
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
+                        <span class="hamburger-icon">☰</span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <!-- HERO CONTENT -->
+        <div class="hero-content">
+            <span class="hero-tag">Est. 2024 · Chennai</span>
+            <h1 class="hero-title">Start Your Day<br>with <em>Magic</em></h1>
+            <p class="hero-sub">"Where every brew casts a spell of flavor and delight. Let your taste buds experience pure magic."</p>
+            <div class="hero-btns">
+                <a href="#book_table" class="btn btn-magic">Book a Table</a>
+                <a href="#place_order" class="btn btn-outline-magic">Place Order</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  MENU SECTION  -->
+<section id="menu">
+
+    <!-- COFFEE ROW -->
+    <div class="menu-row-block">
+        <div class="menu-row-header">
+                <span class="section-tag">Our Menu</span>
+                <h2>Special <em>Coffee</em></h2>
+        </div>
+        <div class="menu-hscroll-row">
+            <div class="menu_items menu-item-card" id="mcard-1">
+                <img src="images/Cappuccino.jpg" class="main-menu-img" alt="Cappuccino" onerror="this.src='https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Cappuccino</h6><p>Rs:260</p></div>
+            </div>
+            <div class="menu_items menu-item-card" id="mcard-2">
+                <img src="images/Iced_vanilla_latte.jpg" class="main-menu-img" alt="Iced Vanilla Latte" onerror="this.src='https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Iced Vanilla Latte</h6><p>Rs:340</p></div>
+            </div>
+            <div class="menu_items menu-item-card" id="mcard-3">
+                <img src="images/Americano.jpg" class="main-menu-img" alt="Americano" onerror="this.src='https://images.unsplash.com/photo-1521302200778-33500795e128?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Americano</h6><p>Rs:250</p></div>
+            </div>
+            <div class="menu_items menu-item-card" id="mcard-4">
+                <img src="images/darkchocolate-orange-espresso.jpg" class="main-menu-img" alt="Orange Espresso" onerror="this.src='https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Orange Espresso</h6><p>Rs:345</p></div>
+            </div>
+            <div class="menu_items menu-item-card" id="mcard-5">
+                <img src="images/dalgona.jpg" class="main-menu-img" alt="Dalgona" onerror="this.src='https://images.unsplash.com/photo-1590000579280-63f8f97c6c03?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Dalgona</h6><p>Rs:200</p></div>
+            </div>
+            <div class="menu_items menu-item-card" id="mcard-6">
+                <img src="images/Coldbrew.jpg" class="main-menu-img" alt="Cold Brew" onerror="this.src='https://images.unsplash.com/photo-1517959105821-eaf2591984ca?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Cold Brew</h6><p>Rs:355</p></div>
+            </div>
+            <div class="menu_items menu-item-card" id="mcard-7">
+                <img src="images/espresso.jpg" class="main-menu-img" alt="Espresso" onerror="this.src='https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Espresso</h6><p>Rs:250</p></div>
+            </div>
+            <div class="menu_items menu-item-card" id="mcard-8">
+                <img src="images/ice_coffee.jpg" class="main-menu-img" alt="Ice Coffee" onerror="this.src='https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Ice Coffee</h6><p>Rs:120</p></div>
+            </div>
+            <div class="menu_items menu-item-card" id="mcard-9">
+                <img src="images/lattemacchiato.jpg" class="main-menu-img" alt="Latte Macchiato" onerror="this.src='https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Latte Macchiato</h6><p>Rs:160</p></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DISHES ROW -->
+    <div class="menu-row-block">
+        <div class="menu-row-header">
+                <h2>Special <em>Dishes</em></h2>
+        </div>
+        <div class="menu-hscroll-row">
+            <div class="menu_items menu-item-card" id="mcard-10">
+                <img src="images/pudding.jpg" class="main-menu-img" alt="Pudding" onerror="this.src='https://images.unsplash.com/photo-1488477181946-6428a0291777?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Pudding</h6><p>Rs:90</p></div>
+            </div>
+            <div class="menu_items menu-item-card" id="mcard-11">
+                <img src="images/rasmalai.jpg" class="main-menu-img" alt="Rasmalai" onerror="this.src='https://images.unsplash.com/photo-1590626979439-fa89bdf0c69e?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Rasmalai</h6><p>Rs:85</p></div>
+            </div>
+            <div class="menu_items menu-item-card" id="mcard-12">
+                <img src="images/custard_gulabjamun.jpg" class="main-menu-img" alt="Custard Gulabjamun" onerror="this.src='https://images.unsplash.com/photo-1603532648955-039310d9ed75?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Custard Gulabjamun</h6><p>Rs:150</p></div>
+            </div>
+            <div class="menu_items menu-item-card" id="mcard-13">
+                <img src="images/fruit_salad_with_cream.jpg" class="main-menu-img" alt="Fruit Salad" onerror="this.src='https://images.unsplash.com/photo-1564093497595-593b96d80180?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Fruit Salad Icecream</h6><p>Rs:100</p></div>
+            </div>
+            <div class="menu_items menu-item-card" id="mcard-14">
+                <img src="images/sandwich.jpg" class="main-menu-img" alt="Sandwich" onerror="this.src='https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Sandwich</h6><p>Rs:130</p></div>
+            </div>
+            <div class="menu_items menu-item-card" id="mcard-15">
+                <img src="images/pizza.jpg" class="main-menu-img" alt="Pizza" onerror="this.src='https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Pizza</h6><p>Rs:350</p></div>
+            </div>
+            <div class="menu_items menu-item-card" id="mcard-16">
+                <img src="images/momos.jpg" class="main-menu-img" alt="Momos" onerror="this.src='https://images.unsplash.com/photo-1625398407796-82650a8c135f?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Momos</h6><p>Rs:90</p></div>
+            <div class="menu_items menu-item-card" id="mcard-17">
+                <img src="images/garlic_cheese_bread.jpg" class="main-menu-img" alt="Garlic Cheese Bread" onerror="this.src='https://images.unsplash.com/photo-1573140401552-3fab0b24306f?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Garlic Cheese Bread</h6><p>Rs:85</p></div>
+            </div>
+            <div class="menu_items menu-item-card" id="mcard-18">
+                <img src="images/wrap.jpg" class="main-menu-img" alt="Wrap" onerror="this.src='https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Wrap</h6><p>Rs:130</p></div>
+            </div>
+            <div class="menu_items menu-item-card" id="mcard-19">
+                <img src="images/donat.jpg" class="main-menu-img" alt="Donut" onerror="this.src='https://images.unsplash.com/photo-1551024601-bec78aea704b?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Donut</h6><p>Rs:65</p></div>
+            </div>
+            <div class="menu_items menu-item-card" id="mcard-20">
+                <img src="images/brownie_icecake.jpg" class="main-menu-img" alt="Brownie Ice Cake" onerror="this.src='https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=300&h=200&fit=crop'">
+                <div class="menu-img-body"><h6>Brownie Ice Cake</h6><p>Rs:125</p></div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--  SERVICES SECTION  -->
+<section id="services">
+    <div class="section-label">
+        <span class="section-tag">What We Offer</span>
+        <h2 class="section-title">Our <em>Services</em></h2>
+    </div>
+    <div class="services-grid">
+        <div class="service-card">
+            <div class="service-img-ring">
+                <img src="images/Cappuccino.jpg" alt="Coffee" onerror="this.src='https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&h=400&fit=crop'">
+            </div>
+            <h4>Premium Coffee</h4>
+            <p>Indulge in our carefully curated selection of premium coffees, sourced from the finest beans around the world. Bold espresso to smooth latte — each cup crafted to perfection.</p>
+        </div>
+        <div class="service-card">
+            <div class="service-img-ring">
+                <img src="images/pudding.jpg" alt="Dessert" onerror="this.src='https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400&h=400&fit=crop'">
+            </div>
+            <h4>Sweet Desserts</h4>
+            <p>Satisfy your sweet tooth with our delectable range of desserts. From classic cakes to innovative creations, every dessert promises a delightful experience.</p>
+        </div>
+        <div class="service-card">
+            <div class="service-img-ring">
+                <img src="images/frenchfries.jpg" alt="Dishes" onerror="this.src='https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=400&fit=crop'">
+            </div>
+            <h4>Tasty Dishes</h4>
+            <p>Explore our diverse menu offering a fusion of flavors for every palate. Hearty breakfasts to gourmet dinners — prepared with fresh, locally-sourced ingredients.</p>
+        </div>
+    </div>
+</section>
+
+<!--  BOOK TABLE SECTION  -->
+<section id="book_table">
+    <div class="book-wrapper">
+        <div class="book-left">
+            <span class="section-tag light">Reserve Your Spot</span>
+            <h2>Book Your <em>Table</em></h2>
+            <div class="book-form">
+                <div class="form-row full">
+                    <input type="text" id="b-name" placeholder="Your Name" required>
+                </div>
+                <div class="form-row">
+                    <input type="email" id="b-email" placeholder="Email Address">
+                </div>
+                <div class="form-row">
+                    <input type="tel" id="b-phone" placeholder="Phone Number">
+                </div>
+                <div class="form-row">
+                    <input type="date" id="b-date">
+                </div>
+                <div class="form-row">
+                    <input type="time" id="b-time">
+                </div>
+                <div class="form-row full">
+                    <select id="b-guests">
+                        <option value="" disabled selected>Number of Guests</option>
+                        <option>1 Guest</option>
+                        <option>2 Guests</option>
+                        <option>3 Guests</option>
+                        <option>4 Guests</option>
+                        <option>5+ Guests</option>
+                    </select>
+                </div>
+                <div class="form-row full">
+                    <button class="btn-book" onclick="bookTable()">✦ Book Table Now</button>
+                </div>
+                <p class="book-msg" id="book-msg"></p>
+            </div>
+        </div>
+        <div class="book-right">
+            <div class="book-info">
+                <div class="info-item">
+                    <span class="info-icon">📍</span>
+                    <div><strong>Location</strong><p>12, Anna Salai, Chennai – 600002</p></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">🕐</span>
+                    <div><strong>Hours</strong><p>Mon–Sun: 8:00 AM – 10:00 PM</p></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">📞</span>
+                    <div><strong>Call Us</strong><p>+91 63749 04910</p></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">📋</span>
+                    <div><strong>Bookings Today</strong><p id="booking-count">0 reservations saved</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PLACE ORDER SECTION -->
+<section class="container" id="place_order">
+    <h3 class="order-section-title">PLACE YOUR ORDER</h3>
+
+    <!-- Category Tabs -->
+    <div class="order-tabs">
+        <button class="order-tab active" onclick="filterOrder('all', this)">All Items</button>
+        <button class="order-tab" onclick="filterOrder('coffee', this)">☕ Coffee</button>
+        <button class="order-tab" onclick="filterOrder('dishes', this)">🍽 Dishes</button>
+    </div>
+
+    <!-- Order Items Scroll Row -->
+    <div class="order-scroll-row" id="order-items-row"></div>
+
+    <!-- Cart Summary -->
+    <div class="order-cart-bar" id="order-cart-bar" style="display:none;">
+        <div class="cart-bar-left">
+            <span class="cart-bar-count" id="cart-bar-count">0 items</span>
+            <span class="cart-bar-total" id="cart-bar-total">Rs: 0</span>
+        </div>
+        <button class="cart-view-btn" onclick="toggleCartPanel()">View Cart ▲</button>
+    </div>
+
+    <!-- Cart Panel -->
+    <div class="order-cart-panel" id="order-cart-panel" style="display:none;">
+        <div class="cart-panel-header">
+            <h5>Your Order</h5>
+            <button class="cart-panel-close" onclick="toggleCartPanel()">✕</button>
+        </div>
+        <div class="cart-panel-items" id="cart-panel-items"></div>
+        <div class="cart-panel-footer">
+            <div class="cart-panel-total">Total: <span id="cart-panel-total-amt">Rs: 0</span></div>
+            <button class="place-order-btn" onclick="placeOrder()">PLACE ORDER NOW</button>
+            <button class="clear-order-btn" onclick="clearCart()">Clear Cart</button>
+        </div>
+    </div>
+
+    <!-- Order Confirmation -->
+    <div class="order-confirm" id="order-confirm" style="display:none;">
+        <span>✅</span>
+        <p id="order-confirm-msg"></p>
+    </div>
+
+    <!-- Past Orders -->
+    <div class="past-orders-wrap">
+        <h5 class="past-orders-title">Your Past Orders</h5>
+        <div id="past-orders-list"></div>
+    </div>
+</section>
+
+<!--  CONTACT SECTION  -->
+<section id="contact">
+    <div class="contact-inner">
+        <span class="section-tag">Stay Connected</span>
+        <h2 class="section-title">Get <em>15% Off</em> Today</h2>
+        <p>Subscribe to our membership and enjoy exclusive discounts at Magic Cafe!</p>
+        <div class="subscribe-row">
+            <input type="email" id="sub-email" class="sub-input" placeholder="Enter your email address">
+            <button class="btn-sub" onclick="subscribe()">Subscribe</button>
+        </div>
+        <p class="sub-msg" id="sub-msg"></p>
+    </div>
+
+    <!--  FOOTER  -->
+    <footer>
+        <div class="footer-logo">Magic Cafe</div>
+        <div class="footer-links">
+            <a href="#">© 2024 Magic Cafe</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="footer-phone">📞 +91 63749 05392</div>
+    </footer>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="bootstrap5/jquery.min.js"></script>
+<script src="bootstrap5/js/bootstrap.min.js"></script>
+<script src="indexscript.js"></script>
+
+</body>
+</html>
